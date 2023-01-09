@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css
+">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #logo {
+            width: 60px;
+            margin-top: -6px;
+            margin-left: 6px;
+        }
+
+        #arrow {
+            display: inline-block;
+        }
+
+        #arrowlogo {
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+
+        #firstcol-4,
+        #secondcol-4,
+        #thirdcol-4 {
+            padding: 0px;
+        }
+
+        #firstcol-4 p,
+        #secondcol-4 p,
+        #thirdcol-4 p {
+            margin: 0px;
+            padding: 0px;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        #firstcol-4 p:hover,
+        #secondcol-4 p:hover,
+        #thirdcol-4 p:hover {
+            background-color: aqua;
+        }
+
+        #secondcol-4,
+        #thirdcol-4 {
+            display: none;
+        }
+    </style>
+
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col" id="arrowlogo">
+                <h4 id="arrow"><i class="bi bi-arrow-left" onclick="back()"></i></h4>
+                <img src="./images/logo.JPG" alt="" id="logo" onclick="mainlogo()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center mt-2 text-bold">
+                <h5>POST YOUR AD</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col pt-2 pb-2 ms-4 me-4" style="border:1px solid black">
+                <h5>CHOOSE A CATEGORY</h5>
+            </div>
+        </div>
+        <div class="row mb-4 ms-2 me-2">
+            <div class="col-4 " id="firstcol-4">
+                <p class="lead  pt-1 pb-1" onclick="showseccol()">Mobiles<i class="bi bi-arrow-right"></i></p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+                <p class="lead  pt-1 pb-1">Mobiles </p>
+            </div>
+
+            <div class="col-4" id="secondcol-4">
+                <p class="lead  pt-1 pb-1" onclick="showthirdcol()">Toys <i class="bi bi-arrow-right"></i></p>
+                <p class="lead  pt-1 pb-1">Kids </p>
+                <p class="lead  pt-1 pb-1">Kids </p>
+            </div>
+            <div class="col-4" id="thirdcol-4">
+                <p class="lead  pt-1 pb-1" onclick="addpost()">Screen</p>
+                <p class="lead  pt-1 pb-1">Pouch</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

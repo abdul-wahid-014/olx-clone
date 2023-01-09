@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav1{
+    margin-left: 10px;
+}
+#search1{
+    width: 218px;
+    height: 45px;
+
+}
+#search2{
+    width:850px;
+    height:45px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.bi-bicycle,.bi-newspaper{
+    margin-left: 35px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    background-color: rgb(240, 240, 240);
+}
+#sell{
+border-top: 8px solid aqua;
+border-left: 8px solid yellow;
+border-right: 8px solid blue;
+border-bottom: 8px solid aqua;
+border-radius: 50%;
+}
+
